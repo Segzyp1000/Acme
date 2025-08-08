@@ -51,7 +51,7 @@ export const ProductProvider = ({ children }: ChildrenType): ReactElement => {
     // }, [])
 
     return (
-        <ProductsContext.Provider value={{ products }}>
+        <ProductsContext.Provider value={{ products }} >
             {children}
         </ProductsContext.Provider>
     )
